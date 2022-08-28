@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+body {
+  height: 100vh;
+  background-color: #99d5ff;
+  background-image:
+    radial-gradient(at 26% 80%, hsla(213, 67%, 78%, 1) 0px, transparent 50%),
+    radial-gradient(at 16% 35%, hsla(335, 94%, 78%, 1) 0px, transparent 50%),
+    radial-gradient(at 67% 27%, hsla(221, 76%, 75%, 1) 0px, transparent 50%),
+    radial-gradient(at 54% 91%, hsla(54, 90%, 77%, 1) 0px, transparent 50%),
+    radial-gradient(at 57% 75%, hsla(307, 78%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 20% 63%, hsla(298, 88%, 72%, 1) 0px, transparent 50%),
+    radial-gradient(at 72% 47%, hsla(357, 66%, 70%, 1) 0px, transparent 50%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3{
+  margin: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.count{
+  width: 50%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 10px;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.4px);
+  -webkit-backdrop-filter: blur(8.4px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.App-link {
-  color: #61dafb;
+.searchBar{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 10px;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.4px);
+  -webkit-backdrop-filter: blur(8.4px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  padding-left: 2%;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.4px);
+  -webkit-backdrop-filter: blur(8.4px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
+
+button{
+  width: 80px;
+  height: 30px;
+  margin: 14px 10px 10px 0px;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.4px);
+  -webkit-backdrop-filter: blur(8.4px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+button:hover{
+  cursor: pointer;
+  background-color: red;
+}
+
